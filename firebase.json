@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "fir-pruebaweb-3a9f8-a7a69",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
